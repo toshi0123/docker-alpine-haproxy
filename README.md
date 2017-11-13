@@ -14,7 +14,7 @@ Quick Start
 ---
 
 ```
-$ docker run -d --name my-running-haproxy -v /path/to/etc/haproxy:/usr/local/etc/haproxy:ro toshi0123/haproxy:latest
+$ docker run -d --name my-running-haproxy -v /path/to/etc/haproxy:/usr/local/etc/haproxy:ro toshi0123/docker-alpine-haproxy:latest
 ```
 
 Reloading config
